@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 import inquirer from "inquirer";
 
 const answers : {
@@ -13,4 +14,4 @@ const answers : {
 
 const word = answers.sentence.trim ().split(" ")
 
-console.log(`Your Sentence Word Count is ${word.length}`)
+console.log(`Your Sentence Word Count is ${chalk.green(word.length)}`)

@@ -1,9 +1,12 @@
 {
-  "name": "word-counter-cli",
+  "name": "cli_word_counter_adnan",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "cli_word_counter_adnan": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
